@@ -1,1 +1,50 @@
-<h1>oe c bluered mes sangs<H&>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"></script>
+    <title>BlueRed.dev</title>
+    <script>
+        window.onload = () => {
+            const bluered = document.getElementById('bluered');
+
+            bluered.addEventListener('click', function() {
+                navigator.clipboard.writeText('curl bluered.dev');
+            });
+        }
+    </script>
+    
+</head>
+<body class="flex flex-col h-screen justify-center items-center text-center text-white bg-gradient-to-br from-gray-900 to-black">
+    <nav class="fixed top-8">
+        <ul class="flex gap-5 justify-around">
+            <a class="text-gray-600 cursor-pointer hover:text-indigo-600" href="https://pepy.tech/project/pystyle">PyStyle (1.5M downloads)</a>
+            <a class="text-gray-600 cursor-pointer hover:text-indigo-600" href="https://github.com/billythegoat356/Hyperion">Hyperion (helped 1.0K persons)</a>
+            <a class="text-gray-600 cursor-pointer hover:text-indigo-600">K3pp (verified best stealer)</a>
+        </ul>
+    </nav>
+
+    <h1 class="text-6xl font-extrabold tracking-tight cursor-pointer" id="bluered" translate="no">BlueRed.<span class="text-indigo-600">dev</span></h1>
+    <p class="text-gray-400 mt-1">Full-Stack 13 years old developer.</p>
+
+    <div class="flex gap-3 mt-8 mb-4" translate="no">
+        <a class="font-bold text-indigo-600 py-3 w-32 rounded cursor-pointer border border-indigo-600 hover:bg-indigo-600 hover:text-white" href="https://discord.gg/cSFy25mTQb">
+            <i class="fa-brands fa-discord mr-1"></i>
+            DISCORD
+        </a>
+
+        <a class="font-bold text-white py-3 w-32 rounded cursor-pointer border border-white hover:bg-white hover:text-gray-900" href="https://github.com/CSM-BlueRed">
+            <i class="fa-brands fa-github mr-1"></i>
+            GITHUB
+        </a>
+
+        <a class="font-bold text-rose-600 py-3 w-32 rounded cursor-pointer border border-rose-600 hover:bg-rose-600 hover:text-white" href="https://tiktok.com/@bluered.pyx">
+            <i class="fa-brands fa-github mr-1"></i>
+            TIKTOK
+        </a>
+    </div>
+</body>
+</html>
